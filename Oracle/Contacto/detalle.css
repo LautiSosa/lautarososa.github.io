@@ -1,0 +1,114 @@
+header {
+    background: #ccc;
+    padding: 20px 0;
+}
+
+.logo {
+    margin-left: 130px;
+}
+
+nav {
+    position: absolute;
+    top: 125px;
+    right: 140px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fb0;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.footer {
+    background-image: url(img/bg.jpg);
+    text-align: center;
+    padding: 30px;
+}
+
+.text-copy {
+    font-size: 13px;
+    color: #fff;
+    margin: 25px
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    margin: 0 0 10px;
+}
+
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+    background: #fb0;
+    transition: 0.5s;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+main {
+    margin-top: -100px;
+    margin-left: 250px;
+}
+
+.tabla {
+    position: sticky;
+    top: 100px;
+    margin-left: 10px;
+}
+
+table tr, td {
+    border: 2px solid #000;
+}
+
+td, th {
+    padding: 5px;
+}
+
+.prin {
+    color: #fff;
+    background: #555555;
+    font-weight: bolder;
+}

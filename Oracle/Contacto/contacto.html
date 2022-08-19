@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="detalle.css">
+        <title>Barberia-Lauti</title>
+    </head>
+    <body>
+        <header>
+            <div class="head">
+                <h1><img src="img/logoOra.png" class="logo" alt="Logo de la Barberia"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="../Home/Index.html">Home</a></li>
+                        <li><a href="../Producto/prod.html">Productos</a></li>
+                        <li><a href="../Contacto/contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <aside class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="prin">Días</th>
+                        <th class="prin">Horarios</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Martes</td>
+                    <td>08hs - 20hs</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td>08hs - 20hs</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>08hs - 20hs</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>08hs - 20hs</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td>11hs - 16hs</td>
+                </tr>
+            </table>
+        </aside>
+
+        <main>
+            <form>
+                <label for="texto">Nombre y Apellido</label>
+                <input type="text" placeholder="Ingrese su Nombre y apellido" id="texto" class="input-padron" required>
+                
+                <label for="correoelec">Correo electrónico</label>
+                <input type="email" placeholder="email@dominio.com" id="correoelec" class="input-padron" required>
+                
+                <label for="telefono">Numero de telefono</label>
+                <input type="tel" placeholder="(+XX) XXXX XXXX" id="telefono" class="input-padron" required>
+                
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="64" rows="10" id="mensaje" class="input-padron"></textarea>
+                <fieldset>  
+                    <legend>Como quiere que nos comuniquemos?</legend>
+                    <label for="id-email"><input type="radio" name="contacto" value="Email" id="id-email">Email</label>
+                    <label for="id-tel"><input type="radio" name="contacto" value="Teléfono" id="id-tel">Teléfono</label>
+                    <label for="id-whatsapp"><input type="radio" name="contacto" value="Whatsapp" id="id-whatsapp" checked>Whatsapp</label>
+                </fieldset>
+                
+                <div>
+                    <legend>En que horario quiere ser atendido?</legend>
+                    <select>
+                    <option>Mañana</option>
+                    <option>Medio Día</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                    </select>
+                </div>
+                <label class="checkbox"><input type="checkbox" checked>Le gustaria recibir novedades de la Barbería?</label>
+                <input type="submit" value="Enviar formulario" class="enviar">
+
+            </form>
+        </main>
+
+        <footer>
+            <div class="footer">
+                <img src="img/logo-blanco.png" class="imagen-pie" alt="Logo de la Barberia">
+                <p class="text-copy">&copy Copyright Barberia Lautaro - 2022</p>
+            </div>
+        </footer>
+    </body>    
+</html>

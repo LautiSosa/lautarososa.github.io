@@ -1,0 +1,107 @@
+header {
+    background: #ccc;
+    padding: 20px 0;
+}
+
+.logo {
+    margin-left: 130px;
+}
+
+nav {
+    position: absolute;
+    top: 125px;
+    right: 140px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fb0;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.titulo-prod {
+    display: inline-block;
+    font-family:'Silkscreen', cursive;
+    border: 5px solid #0a2;
+    margin: 10px 0 -20px 0;
+    font-size: 35px;
+    position: relative;
+    left: 33%;
+}
+
+.lista-prod {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos ul li > a {
+    color: #000;
+    text-decoration: none;
+}
+
+.productos ul > li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.productos li:hover {
+    border: 2px solid #fb0;
+    font-size: 33px;
+}
+
+
+.productos ul > li:active {
+    border: 2px double #0a2;
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.productos li:hover > h2 {
+    font-size: 33px;
+}
+
+.prod-descrip {
+    font-size: 18px;
+}
+
+.prod-precio {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.footer {
+    background-image: url(img/bg.jpg);
+    text-align: center;
+    padding: 30px;
+}
+
+.text-copy {
+    font-size: 13px;
+    color: #fff;
+    margin: 25px
+}
